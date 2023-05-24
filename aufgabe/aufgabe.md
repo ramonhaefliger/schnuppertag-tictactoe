@@ -24,9 +24,9 @@ oder einen [Grid-Container](https://www.w3schools.com/css/css_grid_container.asp
 Wenn du hier angekommen bist, kannst du gerne mich um Hilfe bitten, denn jetzt wird es eher kompliziert. Vorhin hast du das Spielfeld erstellt.
 Jetzt möchten wir erreichen, dass das Spiel auch funktioniert.
 
-Dabei sollen folgende Dinge beachtet werden:
-
-Im Spiel soll jeder Spieler abwechslungsweise einen Zug haben. Das heisst, wenn der Spieler X einen Zug gemacht hat, gehört der nächste Zug dem Spieler O.
-Sobald drei X oder O in einer Reihe, Spalte oder diagonal sind, hat der jeweilige Spieler gewonnen.
-Dann kann zum Beispiel eine Nachricht ausgegeben und das Spielfeld geleert werden. Wenn ein Feld mit der Maus geklickt wird, soll dort ein X oder O erscheinen,
-jenachdem welcher Spieler geklickt hat. Beachte auch, dass wenn ein Feld schon gefüllt ist, sollte man es nicht erneut anklicken können.
+Dabei sollen folgende Dinge beachtet werden (diese gelten auch bei einem normalen Tic-Tac-Toe):
++ Je nachdem welcher Spieler am Zug ist, wird abwechslungsweise entweder X oder O verwendet.
++ Wenn ein Feld angeklickt wird, soll dort ein X oder O erscheinen, je nachdem welcher Spieler geklickt hat.
++ Wenn ein Feld schon gefüllt ist, sollte man es nicht erneut anklicken können.
++ Sobald drei X oder O in einer Reihe, Spalte oder diagonal sind, hat der jeweilige Spieler gewonnen.
++ Bei einem Gewinn soll eine Nachricht ausgegeben werden und das Spielfeld geleert werden.
